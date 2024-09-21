@@ -1,0 +1,97 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2024-09-21 16:33:12.158983",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "description",
+  "issue_date",
+  "due_date",
+  "interval",
+  "mel_cdl_reference",
+  "defferral_reason",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "DDS-.YYYY.-####"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "DDS",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "label": "Description",
+   "reqd": 1
+  },
+  {
+   "fieldname": "issue_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Issue Date ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "due_date",
+   "fieldtype": "Date",
+   "label": "Due Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "interval",
+   "fieldtype": "Data",
+   "label": "Interval"
+  },
+  {
+   "fieldname": "mel_cdl_reference",
+   "fieldtype": "Data",
+   "label": "MEL/ CDL Reference"
+  },
+  {
+   "fieldname": "defferral_reason",
+   "fieldtype": "Data",
+   "label": "Defferral Reason "
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-09-21 16:39:31.281608",
+ "modified_by": "Administrator",
+ "module": "EUW",
+ "name": "DDS",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
