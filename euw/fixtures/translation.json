@@ -1,1 +1,93 @@
-[]
+[
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2024-09-24 13:09:36.837298",
+  "name": "kar95s21nj",
+  "source_text": "Issue",
+  "translated_text": "W/O"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2024-09-24 13:10:17.043029",
+  "name": "kb7qcdcnvb",
+  "source_text": "Issue Type",
+  "translated_text": "W/O Type"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2024-09-24 13:10:50.802218",
+  "name": "kbicd820on",
+  "source_text": "Issue Priority",
+  "translated_text": "W/O Priority"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2024-09-24 13:11:15.481599",
+  "name": "kbq2v6mvib",
+  "source_text": "Issue Summary",
+  "translated_text": "W/O Summary"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2024-09-24 13:11:36.066109",
+  "name": "kc0g66b9h5",
+  "source_text": "Issue Analytics",
+  "translated_text": "W/O Analytics"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2024-09-24 13:12:34.367563",
+  "name": "kcinlfeagk",
+  "source_text": "First Response Time for Issues",
+  "translated_text": "First Response Time for W/O"
+ },
+ {
+  "context": null,
+  "contributed": 0,
+  "contribution_docname": null,
+  "contribution_status": "",
+  "docstatus": 0,
+  "doctype": "Translation",
+  "language": "en",
+  "modified": "2024-09-24 13:13:03.510802",
+  "name": "kcrrms0f0l",
+  "source_text": "Issues",
+  "translated_text": "W/O's"
+ }
+]
