@@ -217,7 +217,7 @@ app_license = "MIT"
 # ]
 
 
-fixtures=['Client Script', 'Custom Field', 'Property Setter', 'Print Format']
+fixtures=['Client Script', 'Custom Field', 'Property Setter', 'Print Format', 'Translation']
 
 
 
