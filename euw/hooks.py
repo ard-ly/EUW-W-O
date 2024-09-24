@@ -215,3 +215,9 @@ app_license = "MIT"
 # auth_hooks = [
 #	"euw.auth.validate"
 # ]
+
+
+fixtures=['Client Script', 'Custom Field', 'Property Setter', 'Print Format']
+
+
+
