@@ -9,10 +9,13 @@
  "engine": "InnoDB",
  "field_order": [
   "naming_series",
+  "section_break_tavc",
   "description",
-  "ata_ch",
   "open_date",
-  "corrective_action"
+  "column_break_jysz",
+  "ata_ch",
+  "corrective_action",
+  "amended_from"
  ],
  "fields": [
   {
@@ -43,12 +46,30 @@
    "fieldname": "corrective_action",
    "fieldtype": "Data",
    "label": "Corrective Action"
+  },
+  {
+   "fieldname": "section_break_tavc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_jysz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "NRC",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-09-21 16:39:17.625610",
+ "modified": "2024-09-22 13:25:50.757862",
  "modified_by": "Administrator",
  "module": "EUW",
  "name": "NRC",
